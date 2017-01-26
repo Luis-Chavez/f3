@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Repositorio de Facebook </title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+
+<style>
+body {
+  background-color:transparent;
+  margin:0;
+  padding:0;
+}
+</style>
+
+<meta expr:content='data:blog.pageTitle' property='og:title'/>
+<meta expr:content='data:blog.url' property='og:url'/>
+<meta content='Blogger' property='og:site_name'/>
+<meta content='227069961086337' property='fb:app_id'/>
+<meta content='http://www.facebook.com/ayudadeblogger' property='fb:admins'/>
+<meta content='article' property='og:type'/>
+</head>
+<body>
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '227069961086337',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<div style='padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;'><script src='http://connect.facebook.net/en_US/all.js#xfbml=1'/>
+<div> <fb:comments  colorscheme='light' expr:href='data:post.url' expr:title='data:post.title' expr:xid='data:post.id' width='520'/></div>
+<div style='color:#fff; background-color:#3B5998;border: solid 1px #ddd; font-size:10px; padding:3px; width:510px;'></div></div>
+
+
+</body>
+</html>
